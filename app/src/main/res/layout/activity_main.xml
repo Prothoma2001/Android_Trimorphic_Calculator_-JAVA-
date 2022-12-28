@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_marginTop="100dp">
+
+        <TextView
+            android:id="@+id/input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Last 4 Digits"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="367dp"
+            android:layout_gravity="center"/>
+        <EditText
+            android:id="@+id/entervalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="176dp"
+            tools:layout_editor_absoluteY="251dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Trimorphic or Not"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Last 4 digits:    "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="132dp"
+                tools:layout_editor_absoluteY="367dp" />
+            <TextView
+                android:id="@+id/digits"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="132dp"
+                tools:layout_editor_absoluteY="367dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Summation of last 4 digits:    "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="132dp"
+                tools:layout_editor_absoluteY="367dp" />
+            <TextView
+                android:id="@+id/sum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="132dp"
+                tools:layout_editor_absoluteY="367dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cube of summation of 4 digits:    "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="132dp"
+                tools:layout_editor_absoluteY="367dp" />
+            <TextView
+                android:id="@+id/cube"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="132dp"
+                tools:layout_editor_absoluteY="367dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Is it Trimorphic?  :    "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="132dp"
+                tools:layout_editor_absoluteY="367dp" />
+            <TextView
+                android:id="@+id/trimorphic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  "
+                android:textSize="20sp"
+                tools:layout_editor_absoluteX="132dp"
+                tools:layout_editor_absoluteY="367dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
